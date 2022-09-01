@@ -16,6 +16,7 @@ body{
 
 .header{
     text-align: center;
+    height: 7rem;
 }
 
 .main{
@@ -42,6 +43,12 @@ body{
 .service-field{
     display: flex;
 
+}
+.service{
+    padding: 3%
+}
+.service-input{
+    width: 90%;
 }
 
 /* header{
