@@ -40,17 +40,64 @@ body{
 .form{
     width: 50%;
 }
+
 .service-field{
     display: flex;
 
 }
+
 .service{
     padding: 3%
 }
+
 .service-input{
     width: 90%;
+    height: 25%;
 }
 
+.check-boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    padding: 3%;
+
+}
+
+.satisfaction{
+    display: flex;
+    flex-direction: column;
+}
+
+.expectation{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.check-circle{
+    border-radius: 50%;
+    padding: 2%;
+}
+
+.check-divs{
+    display: flex;
+    flex-direction: row;
+    
+}
+.check-divs > .right{
+    width: 50%;
+}
+.check-divs > .left{
+    width: 50%;
+}
+.check-div{
+    height: 1rem;
+    border-radius: 50%;
+}
+.submit{
+    text-align: center;
+}
 /* header{
     font-family: "lucida";
     text-align: center;
